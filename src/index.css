@@ -1,21 +1,20 @@
 * {
   box-sizing: border-box;
 }
-body{
-    background: var(--main-background) !important;
-}
 .container {
   max-width: 600px !important;
-  margin-top: 32vh;
-  background: var(--content-bg);
-}
-:root {
-  --main-background: #FF9F9F;
-  --text-color: #FCDDB0;
-  --elements-bg: #FF9F9F;
-  --content-bg: #E97777;
 }
 
-button {
-  background: var(--elements-bg) !important;
+.app-container {
+  transition: background-color 0.5s ease-in-out;
+}
+
+.quote-section {
+  transition: background-color 0.5s ease-in-out;
+}
+
+.quote-text,
+.quote-author,
+.button {
+  transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
 }
